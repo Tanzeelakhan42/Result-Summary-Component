@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  background-color: #ecf3ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-box {
+  background-color: white;
+  height: 70%;
+  width: 50%;
+  display: flex;
+  border-radius: 24px;
+}
+.content-box-left {
+  background-color: #6140fd;
+  width: 50%;
+  border-radius: 24px;
+}
+.content-box-right {
+  background-color: white;
+  width: 50%;
+  border-radius: 0px 24px 24px 0px;
+}
