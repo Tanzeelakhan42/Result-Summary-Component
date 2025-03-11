@@ -7,17 +7,31 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="main">
+    <div class="container">
       <div class="content-box">
         <div class="content-box-left">Your Result</div>
+
         <div class="content-box-right">
-          <b>Summary</b>
-          <div id="reaction">
-            <img src="icon-reaction.svg" alt="icon" />Reaction
-          </div>
-          <div id="memory"><img src="icon-memory.svg" alt="icon" />Memory</div>
-          <div id="verbal"><img src="icon-verbal.svg" alt="icon" />Verbal</div>
-          <div id="visual"><img src="icon-visual.svg" alt="icon" />Visual</div>
+          <header id="summary">Summary</header>
+          <main id="main">
+            <div id="reaction">
+              <img src="icon-reaction.svg" alt="icon" />Reaction
+              <div id="reaction-marks"><b>80</b>/100</div>
+            </div>
+            <div id="memory">
+              <img src="icon-memory.svg" alt="icon" />Memory
+              <div id="memory-marks"><b>92</b>/100</div>
+            </div>
+            <div id="verbal">
+              <img src="icon-verbal.svg" alt="icon" />Verbal
+              <div id="verbal-marks"><b>61</b>/100</div>
+            </div>
+            <div id="visual">
+              <img src="icon-visual.svg" alt="icon" />Visual
+              <div id="visual-marks"><b>73</b>/100</div>
+            </div>
+          </main>
+          <footer><button>Continue</button></footer>
         </div>
       </div>
     </div>
