@@ -4,31 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Results Summary Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <div class="content-box">
-        <div class="content-box-left">Your Result</div>
+        <div class="content-box-left">
+          <header id="your-result">Your Result</header>
+          <main id="score">
+            <div id="score-line-1">76</div>
+            <div id="score-line-2">of 100</div>
+          </main>
+          <footer>
+            <div id="footer-1">Great</div>
+            <div id="footer-2">
+              <div id="line-1">You scored higher than 65% of</div>
+              <div id="line-2">the people who have taken</div>
+              <div id="line-3">these tests.</div>
+            </div>
+          </footer>
+        </div>
 
         <div class="content-box-right">
           <header id="summary">Summary</header>
           <main id="main">
             <div id="reaction">
               <img src="icon-reaction.svg" alt="icon" />Reaction
-              <div id="reaction-marks"><b>80</b>/100</div>
+              <div id="reaction-marks">
+                <b>80</b>
+                <div class="light-font">/ 100</div>
+              </div>
             </div>
             <div id="memory">
               <img src="icon-memory.svg" alt="icon" />Memory
-              <div id="memory-marks"><b>92</b>/100</div>
+              <div id="memory-marks">
+                <b>92</b>
+                <div class="light-font">/ 100</div>
+              </div>
             </div>
             <div id="verbal">
               <img src="icon-verbal.svg" alt="icon" />Verbal
-              <div id="verbal-marks"><b>61</b>/100</div>
+              <div id="verbal-marks">
+                <b>61</b>
+                <div class="light-font">/ 100</div>
+              </div>
             </div>
             <div id="visual">
               <img src="icon-visual.svg" alt="icon" />Visual
-              <div id="visual-marks"><b>73</b>/100</div>
+              <div id="visual-marks">
+                <b>73</b>
+                <div class="light-font">/ 100</div>
+              </div>
             </div>
           </main>
           <footer><button>Continue</button></footer>
